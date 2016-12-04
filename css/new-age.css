@@ -453,8 +453,6 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
-
-}
 .col-sm-4 {
   padding-right: 50px;
   padding-bottom: 50px;
@@ -497,6 +495,7 @@ section.timeline {
 .next-button
 {
   margin:30px;
+
 }
 
 #my-div
@@ -524,4 +523,20 @@ section.timeline {
 #conductors
 {
   padding-bottom: 50px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+  }
+.carousel-indicators li{
+  color: black;
+  border-color: black;
+}
+.carousel-indicators .active{
+  background-color: black;
+}
+ol.carousel-indicators{
+  margin-bottom: 0px;
 }
