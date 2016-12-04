@@ -151,12 +151,14 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
+  /**HEADER IMG PATTERN
   background: url("../img/bg-pattern.png"), #7b4397;
-  /* fallback for old browsers */
+  /* fallback for old browsers
   background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  /* Chrome 10-25, Safari 5.1-6 */
+  /* Chrome 10-25, Safari 5.1-6
   background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: black;
   color: white;
 }
 header .header-content {
@@ -284,8 +286,8 @@ section.features .feature-item h3 {
 }
 section.features .feature-item i {
   font-size: 80px;
-  background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  /*background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(to left, #7b4397, #dc2430); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -302,7 +304,9 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/bg-cta.jpg');
+  /**Section background image**
+  background-image: url('../img/bg-cta.jpg'); */
+  background-color: grey;
   padding: 200px 0;
 }
 section.cta .cta-content {
@@ -394,8 +398,8 @@ footer ul li a.active {
 }
 .bg-primary {
   background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+ /* background: -webkit-linear-gradient(#fdcc52, #fdc539);
+  background: linear-gradient(#fdcc52, #fdc539); */
 }
 .text-primary {
   color: #fdcc52;
@@ -451,4 +455,26 @@ body {
 
 #arrow_button{
   margin-top:150px;
+}
+
+#explanation {
+  background-color: black;
+  background: rgba(0,0,0,0.5);
+}
+
+#timeline-background {
+background: url("http://res.cloudinary.com/nyphil/image/upload/q_80/v1442264667/images/about/history/banner_index.jpg"), #7b4397;
+}
+
+section.timeline {
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  /**Section background image**
+  background-image: url('../img/bg-cta.jpg'); */
+  background-color: grey;
+  padding: 100px 0;
 }
