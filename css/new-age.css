@@ -454,6 +454,16 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
+}
+.col-sm-4 {
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+#text-content{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
 #arrow_button{
   margin-top:150px;
 }
@@ -477,7 +487,7 @@ section.timeline {
   /**Section background image**
   background-image: url('../img/bg-cta.jpg'); */
   background-color: grey;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .prev-button
@@ -487,13 +497,31 @@ section.timeline {
 .next-button
 {
   margin:30px;
+}
 
+#my-div
+{
+    padding: 100px;
+    width: 90%;
+    height   : 420px;
+    overflow : hidden;
+    position : relative;
 }
-.col-sm-4 {
-  padding-right: 50px;
+
+#my-iframe
+{
+    position : absolute;
+    top      : -110px;
+    width    : 90%;
+    height   : 550px;
+}
+
+#narrative
+{
+  padding:50px;
+}
+
+#conductors
+{
   padding-bottom: 50px;
-}
-#text-content{
-  padding-left: 200px;
-  padding-right: 200px;
 }
