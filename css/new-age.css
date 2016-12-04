@@ -478,8 +478,13 @@ section.timeline {
   background-color: grey;
   padding: 100px 0;
 }
-/*for bios*/
-.col-sm-4 {
-  padding-right: 50px;
-  padding-bottom: 50px;
+
+.prev-button
+{
+  margin:30px;
+}
+.next-button
+{
+  margin:30px;
+
 }
