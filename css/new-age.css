@@ -52,6 +52,7 @@ h6 {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
+  padding-bottom: 50px;
 }
 p {
   font-size: 18px;
@@ -221,7 +222,7 @@ header .device-container .screen img {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 80px 0;
 }
 section h2 {
   font-size: 50px;
@@ -487,4 +488,12 @@ section.timeline {
 {
   margin:30px;
 
+}
+.col-sm-4 {
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+#text-content{
+  padding-left: 200px;
+  padding-right: 200px;
 }
