@@ -305,7 +305,7 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  
+
   background-image: url('../img/bg-cta.jpg');
   background-color: grey;
   padding: 100px 0;
@@ -453,6 +453,7 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
 .col-sm-4 {
   padding-right: 50px;
   padding-bottom: 50px;
@@ -463,7 +464,7 @@ body {
 }
 
 #arrow_button{
-  margin-top:50px;
+  margin-top:150px;
 }
 
 #explanation {
@@ -473,6 +474,11 @@ body {
 
 #timeline-background {
 background: url("http://res.cloudinary.com/nyphil/image/upload/q_80/v1442264667/images/about/history/banner_index.jpg"), #7b4397;
+
+}
+
+
+#german-background {
 }
 
 section.timeline {
@@ -498,6 +504,7 @@ section.timeline {
 
 }
 
+/*spacing for line graph*/
 #my-div
 {
     padding: 100px;
@@ -527,7 +534,7 @@ section.timeline {
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-      width: 50%;
+      width: 100%;
       margin: auto;
   }
 .carousel-indicators li{
@@ -540,6 +547,20 @@ section.timeline {
 ol.carousel-indicators{
   margin-bottom: 0px;
 }
+
+#myCarousel
+{
+  padding:50px 0px;
+  padding-bottom:100px;
+  background-color: grey;
+}
+
+/*padding for captions*/
+h5
+{
+  padding-bottom: 0px;
+}
+
 /*titles on front page that need extra height*/
 h2.front-pg{
   padding-top: 50px;
