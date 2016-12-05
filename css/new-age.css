@@ -305,9 +305,8 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-
-  background-image: url('../img/bg-cta.jpg');
-  background-color: grey;
+/*background-image: url('../img/bg-cta.jpg'); */
+  background-color: #8D1B21;
   padding: 100px 0;
 }
 section.cta .cta-content {
@@ -463,8 +462,17 @@ body {
   padding-right: 200px;
 }
 
+
+#cta-content-1{
+  padding-top:20px;
+}
+
+#arrow_button_top{
+  margin-top:40px;
+}
+
 #arrow_button{
-  margin-top:150px;
+  margin-top:80px;
 }
 
 #explanation {
@@ -474,12 +482,8 @@ body {
 
 #timeline-background {
 background: url("http://res.cloudinary.com/nyphil/image/upload/q_80/v1442264667/images/about/history/banner_index.jpg"), #7b4397;
-
 }
 
-
-#german-background {
-}
 
 section.timeline {
   position: relative;
@@ -492,6 +496,34 @@ section.timeline {
   background-image: url('../img/bg-cta.jpg'); */
   background-color: grey;
   padding: 50px 0;
+}
+
+/*main page pictures*/
+#timeline-pic {
+  padding-bottom: 130px;
+  background-image: url('../img/timeline-pic.jpg');
+}
+
+#german-pic {
+  padding-bottom: 130px;
+  background-image: url('../img/german-pic.jpg');
+}
+
+#conductors-pic {
+  padding-bottom: 130px;
+   background-image: url('../img/conductors-pic.jpg');
+}
+
+#venues-pic
+{
+  padding-bottom: 130px;
+  background-image: url('../img/venues-pic.jpg');
+}
+
+#conclusion-pic
+{
+  padding-bottom: 200px;
+  background-image: url('../img/conclusion-pic.jpg');
 }
 
 .prev-button
@@ -564,4 +596,9 @@ h5
 /*titles on front page that need extra height*/
 h2.front-pg{
   padding-top: 50px;
+  padding-bottom:0px;
+}
+
+#conductor-padding{
+  padding-bottom: 0px;
 }
