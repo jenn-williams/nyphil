@@ -479,11 +479,6 @@ body {
   margin-top:125px;
 }
 
-#explanation {
-  background-color: black;
-  background: rgba(0,0,0,0.5);
-}
-
 #timeline-background {
 background: url("http://res.cloudinary.com/nyphil/image/upload/q_80/v1442264667/images/about/history/banner_index.jpg"), #7b4397;
 }
@@ -543,6 +538,16 @@ section.timeline {
 #conductors-header {
   background-image: url('../img/conductors-header.jpg');
   padding-bottom:30px;
+}
+
+#conclusion-header {
+    background-image: url('../img/conclusion-header.jpg');
+    padding-bottom: 20px;
+}
+
+#timeline-header {
+  background-image: url('../img/timeline-header.jpg');
+  padding-bottom:20px;
 }
 
 .prev-button
@@ -633,4 +638,8 @@ figure {
 
 #tour-map {
   padding:0px;
+}
+
+#timeline-viz {
+  margin-top:50px;
 }
