@@ -530,6 +530,12 @@ section.timeline {
   background-image: url('../img/conclusion-pic.jpg');
 }
 
+/*Section Header images*/
+#venue-header {
+  background-image: url('../img/venue-header.jpg');
+  padding-bottom: 50px;
+}
+
 .prev-button
 {
   margin:30px;
@@ -611,3 +617,4 @@ section.text{
 section.viz{
   padding-bottom: 0px;
 }
+
