@@ -650,3 +650,13 @@ figcaption {
   padding-top: 10px;
 }
 
+/**venue-page edits**/
+#carnegie {
+  margin-left: 75px;
+}
+
+/**conductors-page edits**/
+#tours-padding {
+  padding-top: 30px;
+}
+
