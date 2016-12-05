@@ -475,6 +475,10 @@ body {
   margin-top:80px;
 }
 
+#arrow_button_venues{
+  margin-top:125px;
+}
+
 #explanation {
   background-color: black;
   background: rgba(0,0,0,0.5);
@@ -516,7 +520,7 @@ section.timeline {
 
 #venues-pic
 {
-  padding-bottom: 130px;
+  padding-bottom: 180px;
   background-image: url('../img/venues-pic.jpg');
 }
 
@@ -569,13 +573,8 @@ section.timeline {
       width: 100%;
       margin: auto;
   }
-.carousel-indicators li{
-  color: black;
-  border-color: black;
-}
-.carousel-indicators .active{
-  background-color: black;
-}
+
+
 ol.carousel-indicators{
   margin-bottom: 0px;
 }
@@ -583,7 +582,7 @@ ol.carousel-indicators{
 #myCarousel
 {
   padding:50px 0px;
-  padding-bottom:100px;
+  padding-bottom:130px;
   background-color: grey;
 }
 
