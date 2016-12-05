@@ -397,12 +397,12 @@ footer ul li a.active {
   text-decoration: none;
 }
 .bg-primary {
-  background: #fdcc52;
+  background: #8D1B21;
  /* background: -webkit-linear-gradient(#fdcc52, #fdc539);
   background: linear-gradient(#fdcc52, #fdc539); */
 }
 .text-primary {
-  color: #fdcc52;
+  color: #8D1B21;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -418,8 +418,8 @@ footer ul li a.active {
 .btn-outline:active,
 .btn-outline.active {
   color: white;
-  background-color: #fdcc52;
-  border-color: #fdcc52;
+  background-color: #8D1B21;
+  border-color: #8D1B21;
 }
 .btn {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
@@ -589,7 +589,7 @@ ol.carousel-indicators{
 {
   padding:50px 0px;
   padding-bottom:130px;
-  background-color: grey;
+  background-color: black;
 }
 
 /*padding for captions*/
