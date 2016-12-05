@@ -536,6 +536,15 @@ section.timeline {
   padding-bottom: 50px;
 }
 
+#german-header {
+  background-image: url('../img/german-header.jpg');
+}
+
+#conductors-header {
+  background-image: url('../img/conductors-header.jpg');
+  padding-bottom:30px;
+}
+
 .prev-button
 {
   margin:30px;
@@ -622,3 +631,6 @@ figure {
   margin-bottom: 50px;
 }
 
+#tour-map {
+  padding:0px;
+}
