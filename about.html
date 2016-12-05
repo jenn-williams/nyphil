@@ -69,82 +69,86 @@
 
     <header>
 
-    <section>
+    <section class = "text">
     <div class = "container">
-    <h2>About</h2>
-    <p> ****brief introduction of section</p>
+    <h2>About: Project Process</h2>
+    <h1 class = "bio">Sources:</h1>
+    <p>For our project, we were presented with a dataset chronicling the concerts held by the New York Philharmonic from 1842-1911, made available by the <a href = "http://archives.nyphil.org/performancehistory/#program">New York Philharmonic Performance History database</a>. In "The Narrativization of Real Events", contemporary narratologist Hayden White comprehends narrative as the connective tissue between assembled facts. When dealing with our dataset, we aimed to tell the story of the roots and conception of the New York Philharmonic. This includes the social and historical context that grounded classical music in the 19th century. The NYP database was created by extracting information from primary source documents, such as pamphlets, printed programs, and other available ephemera. The project also used supplementary materials from Barbara Haws, the head archivist for the New York Philharmonic. This includes scanned ticket price documents and floor plans for early NYP venues. We also utilized additional data regarding the amount of revenue made annually-- taken from the <a href= "http://archives.nyphil.org/index.php/search?search-type=singleFilter&search-text=*&doctype=businessRecord&search-dates-from&search-dates-to&npb:Series_facet[0]=Annual%20Reports">New York Philharmonic Digital Archive’s</a> annual reports. </p><br />
+
+
+    <h1 class = "bio">Processing:</h1>
+    <p>We first used OpenRefine to clean the data, getting rid of any redundancies and fixing formatting issues. We soon discovered that there were over 50 different conductors that conducted during this time period. In order to narrow down our narrative, we decided to mainly focus on the 5 main early conductors: Gustav Mahler, Leopold Damrosch, Carl Bergmann, Theodore Thomas, Walter Damrosch. We also used OpenRefine to create new datasets containing only these conductors. In addition to OpenRefine, we also used Excel to compile the revenue data that we acquired from the annual reports since there wasn’t too much data. Cleaning and narrowing down our research field allowed us to have a more focused data visualizations. Through the help of head archivist Barbara Haws, the project utilized scanned floor plans and seating charts for Carnegie Hall and the Metropolitan Opera House. </p><br />
+
+    <h1 class = "bio">Presentation:</h1>
+    <p>For our project, we chose to use the New Age bootstrap template as a framework for the website. We then edited the HTML and CSS to create our own unique design. We felt like Wordpress and Omeka were too structured and would not give us the freedom to choose how we wanted to display our narrative. We specifically chose this layout with the intention of giving the viewer a more intuitive way to navigate through the site and experience the narrative. For our History Overview Timeline we used Timeline JS3 to give the viewer a comprehensive understanding of the historical events of the NY Philharmonic. The Financial Revenue Graph was created through Tableau. We first tried using Excel to create the graph, however, we soon found that Excel did not offer an annotating ability, which we needed in order to overlay a graph on top of the revenue trend to help depict who the conductor was at that specific time. All venue and tour maps were created via CartoDB. The stacked bar graphs were created using Excel as we wanted a basic way to visualize German influence upon various New York Philharmonic conductors. <p><br />
+
+
+
     </div>
     </section>
-    <section class="cta">
-        <div class="cta-content">
-            <div class="container">
-                <h2>Levels of a DH Project</h2>
-                <p>Explanation</p>
-                
-            </div>
-        </div>
+    
 
-    </section>
-
-    <section>
+    <section class = "text">
     <div class = "container">
-    <h2 class="text-center"> Team Bios</h2> <!--pictures in col width 4, bio part in col width 8-->
+    <h2>About: The Team</h2> <!--pictures in col width 4, bio part in col width 8-->
 <div class = "row">
     <div class="col-sm-2">
-        <img class = "img-responsive" src = "img/jw.jpg">
+        <img class = "img-responsive" src = "img/Chisei.png">
     </div>
     <div class = "col-sm-4">
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat metus vel nisi pulvinar, sit amet luctus dui tristique. Nulla ligula risus, eleifend at ullamcorper at, tincidunt et libero. Proin sit amet est ac diam mollis maximus. Quisque quis purus rutrum, posuere mauris in, scelerisque nisi. Nullam vitae ante aliquam, tincidunt arcu nec, aliquet orci. Morbi iaculis leo quis enim congue, quis tincidunt justo fringilla. Donec ipsum magna, vestibulum ut ligula eu, fermentum molestie nisl. Quisque eu imperdiet lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec leo dolor, rhoncus ac urna id, feugiat dictum velit. Sed sit amet lacinia enim.</p>
+        <p> Chisei is a third year Cognitive Science major with Specialization in Computing, minoring in Digital Humanities. As mapping specialist, he was mainly responsible for creating maps using Cartodb. He cleaned the data himself, which required a lot of manual work to geolocate locations that longer existed.</p>
 
 
     </div> 
    
  
     <div class="col-sm-2">
-        <img class = "img-responsive" src = "img/jw.jpg">
+        <img class = "img-responsive" src = "img/Troyese.png">
     </div>
     <div class = "col-sm-4">
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat metus vel nisi pulvinar, sit amet luctus dui tristique. Nulla ligula risus, eleifend at ullamcorper at, tincidunt et libero. Proin sit amet est ac diam mollis maximus. Quisque quis purus rutrum, posuere mauris in, scelerisque nisi. Nullam vitae ante aliquam, tincidunt arcu nec, aliquet orci. Morbi iaculis leo quis enim congue, quis tincidunt justo fringilla. Donec ipsum magna, vestibulum ut ligula eu, fermentum molestie nisl. Quisque eu imperdiet lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec leo dolor, rhoncus ac urna id, feugiat dictum velit. Sed sit amet lacinia enim.</p>
+        <p> Troyese is a fourth year Fine Arts major at UCLA. As content specialist, she handled various interactions with archivists and other research resources. She copy-edited narratives and textual content.</p>
 
 
     </div>
     </div>
  <div class = "row">
     <div class="col-sm-2">
-        <img class = "img-responsive" src = "img/jw.jpg">
+        <img class = "img-responsive" src = "img/Anisa.png">
     </div>
     <div class = "col-sm-4">
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat metus vel nisi pulvinar, sit amet luctus dui tristique. Nulla ligula risus, eleifend at ullamcorper at, tincidunt et libero. Proin sit amet est ac diam mollis maximus. Quisque quis purus rutrum, posuere mauris in, scelerisque nisi. Nullam vitae ante aliquam, tincidunt arcu nec, aliquet orci. Morbi iaculis leo quis enim congue, quis tincidunt justo fringilla. Donec ipsum magna, vestibulum ut ligula eu, fermentum molestie nisl. Quisque eu imperdiet lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec leo dolor, rhoncus ac urna id, feugiat dictum velit. Sed sit amet lacinia enim.</p>
+        <p> Anisa is a fourth year Design|Media Arts major and Digital Humanities Minor at UCLA. As data visualization specialist, she was responsible for analyzing, visualizing, and extracting findings from the data to enhance the project’s narrative. She also researched and wrote about the dataset’s ontology and the Philharmonic’s venues in New York City.</p>
 
 
     </div> 
    
  
     <div class="col-sm-2">
-        <img class = "img-responsive" src = "img/jw.jpg">
+        <img class = "img-responsive" src = "img/Jennifer K..png">
     </div>
     <div class = "col-sm-4">
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat metus vel nisi pulvinar, sit amet luctus dui tristique. Nulla ligula risus, eleifend at ullamcorper at, tincidunt et libero. Proin sit amet est ac diam mollis maximus. Quisque quis purus rutrum, posuere mauris in, scelerisque nisi. Nullam vitae ante aliquam, tincidunt arcu nec, aliquet orci. Morbi iaculis leo quis enim congue, quis tincidunt justo fringilla. Donec ipsum magna, vestibulum ut ligula eu, fermentum molestie nisl. Quisque eu imperdiet lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec leo dolor, rhoncus ac urna id, feugiat dictum velit. Sed sit amet lacinia enim.</p>
+        <p> Jennifer is a second year Cognitive Science major at UCLA. As a data specialist she organized and compiled the data, got rid of any redundancies, and fixed formatting problems. She additionally created various data visualizations to go along with the narrative. 
+</p>
 
 
     </div>
     </div>
     <div class = "row">
     <div class="col-sm-2">
-        <img class = "img-responsive" src = "img/jw.jpg">
+        <img class = "img-responsive" src = "img/Jennifer W..png">
     </div>
     <div class = "col-sm-4">
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat metus vel nisi pulvinar, sit amet luctus dui tristique. Nulla ligula risus, eleifend at ullamcorper at, tincidunt et libero. Proin sit amet est ac diam mollis maximus. Quisque quis purus rutrum, posuere mauris in, scelerisque nisi. Nullam vitae ante aliquam, tincidunt arcu nec, aliquet orci. Morbi iaculis leo quis enim congue, quis tincidunt justo fringilla. Donec ipsum magna, vestibulum ut ligula eu, fermentum molestie nisl. Quisque eu imperdiet lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec leo dolor, rhoncus ac urna id, feugiat dictum velit. Sed sit amet lacinia enim.</p>
+        <p> Jennifer is a third year Cognitive Science major with a Specialization in Computing at UCLA. As the web specialist, she was responsible for coding the website. This was done with a bootstrap framework that was edited to fit specific design that was desired.
+</p>
 
 
     </div> 
    
  
     <div class="col-sm-2">
-        <img class = "img-responsive" src = "img/jw.jpg">
+        <img class = "img-responsive" src = "img/Risha.png">
     </div>
     <div class = "col-sm-4">
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consequat metus vel nisi pulvinar, sit amet luctus dui tristique. Nulla ligula risus, eleifend at ullamcorper at, tincidunt et libero. Proin sit amet est ac diam mollis maximus. Quisque quis purus rutrum, posuere mauris in, scelerisque nisi. Nullam vitae ante aliquam, tincidunt arcu nec, aliquet orci. Morbi iaculis leo quis enim congue, quis tincidunt justo fringilla. Donec ipsum magna, vestibulum ut ligula eu, fermentum molestie nisl. Quisque eu imperdiet lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec leo dolor, rhoncus ac urna id, feugiat dictum velit. Sed sit amet lacinia enim.</p>
+        <p> Risha is a third year majoring in Cognitive Science and Computing at UCLA. As project manager, she handled the organization and management of the project and took part in researching and writing the narrative. She also helped design and code the website.</p>
 
 
     </div>
@@ -153,6 +157,44 @@
     </div>
     </section>
 
+    <section>
+    <div class = "container">
+    <h2 class = "text-center">Acknowledgements</h2>
+    <h1 class = "bio">Special thanks to:</h1>
+    <p>Miriam Posner, Digital Humanities Coordinator at UCLA and Digital Humanities 101 Professor <br />
+    Francesca Albrezzi, PHD student and teaching assistant for Digital Humanities 101 <br />
+    Barbara Haws: Head Archivist of the New York Philharmonic<br />
+    Janine J. Henri: Architecture, Design, and Digital Services Librarian<br />
+</p></div></section>
+
+
+
+
     </header>
+<footer>
+        <div class="container">
+            <p>&copy; Created by Digital Humanitists at UCLA. All Rights Reserved.</p>
+            <ul class="list-inline">
+                <li>
+                    <a href="http://www.cdh.ucla.edu/curriculum/undergraduate-minor/" target="_blank">UCLA DH Minor</a>
+                </li>
+                <li>
+                    <a href="http://nyphil.org/"" target="_blank">New York Philharmonic</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/new-age.min.js"></script>
     </body>
     </html>

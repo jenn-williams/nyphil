@@ -455,3 +455,7 @@ body {
 #arrow_button{
   margin-top:150px;
 }
+.col-sm-4 {
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
