@@ -602,3 +602,13 @@ h2.front-pg{
 #conductor-padding{
   padding-bottom: 0px;
 }
+
+h2.bio, h1.bio{
+  padding-bottom: 20px;
+}
+section.text{
+  padding-bottom: 0px;
+}
+section.viz{
+  padding-bottom: 0px;
+}
